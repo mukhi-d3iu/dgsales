@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Digisales Android Suite">
+	<test name="Homescreen">
+		<classes>
+			<class name="testcases.HomescreenTest" />  			      
+		</classes>
+	</test>
+	<test name="LocationScreen">
+		<classes>
+			<class name="testcases.CaptureLocationTest" />  			      
+		</classes>
+	</test>
+</suite>
